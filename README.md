@@ -1,2 +1,275 @@
 # Minidome2
 First attempt I suck at this
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="MD.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">  
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/89806138_137692737769929_2741379485034086400_o.jpg?_nc_cat=107&ccb=2&_nc_sid=dd9801&_nc_ohc=w8elpZVYGGkAX-PyoK0&_nc_ht=scontent-bru2-1.xx&oh=2f6235931b4ccb7141d4e7279ec58557&oe=5FF92224");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#photos" class="w3-button w3-block w3-black">PHOTOS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">SHOP</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px"></span>The Minidome</span>
+  </div>
+
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand <div class="w3-sand w3-large">
+  
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">About the museum</span></h5>
+    <h3>Where it all started</h3>
+    <p>It all started with a real Dinky Toys that I got when I was seven years old. It was an old Austin Taxi and an aunt gave me an Austin A 40 Devon.With these two Austins my brothers and I played and immitated an Austin garage. My next additions were an Austin A 40 Somerset and an Austin A 90. From that moment on I could not be stopped from buying more miniatures. </p>
+    
+    <p>+7000 pieces in the museum</p>
+    <img src="https://d8mkdcmng3.imgix.net/6765/716326.jpg?auto=format&bg=0FFF&fit=fill&h=600&q=100&w=600&s=197f0cc4344b3b97bb4a29905422c4b0" alt="random car">
+    
+    <h3>Where is the museum situated?</h3>
+    <p>Asperen is part of Lingewaal counsil and is situated in Vijfheerenlanden. The small city has a history of over 1000 years and is located along side the Linge river. The museum exists in the front part of an old farm house from 1640. The room on the right hand side of the front door is the room previously used as living room and now used to exhibit the miniatures. On the left hand side of the front door is the museum shop where you can enjoy a cup of JAVAcoffee.</p>
+    <br><img src="https://accentsconagua.com/img/images_8/whats-the-difference-between-java-and-javascript.png" style="width:100%;max-width:750px" alt="no coffee" class="w3-margin-top">
+    <div class="w3-panel w3-leftbar w3-light-grey">
+    </div>
+    <p><strong>Opening hours:</strong> Saturday and Sunday afternoons from 13:00 till 17:00 It is advised to phone ahead</p>
+    <p><strong>Address:</strong> Voorstraat 80 4147 CD Asperen (NL)</p>
+    <p><strong>Tel: </strong>0031(0)345-619970</p>
+  </div>
+</div>
+
+<!-- Photos container -->
+<div class="w3-container" id="photos">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PHOTOS</span></h5>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.minidome.nl/graphics/buttons%20tourtocht%202004/Picture%202004%20minidome%20015.jpg" class="d-block w-100" alt="no">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.minidome.nl/graphics/buttons%20tourtocht%202004/Picture%202004%20minidome%20053.jpg" class="d-block w-100" alt="no">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.minidome.nl/graphics/foto%27s%20tourtocht%202004/Picture%202004%20minidome%20052%20MG%20B%20Am.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</div>
+<!-- Menu Container -->
+<div class="w3-content" style="max-width:700px">
+ 
+  <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SHOP</span></h5>
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-2"><span class="w3-tag w3-wide"></span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Shop</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Super sales!</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+
+      <center>
+
+        <h5><b>Miniature brand: Burago</b></h5>
+        <p style="font-style: italic;">Ferrari F40 Red</p>
+        <p style="font-style: italic;">€ 12,95</p> 
+        <img src="FerrariF40.jpg" alt="_blank" width="300" height="200"> 
+   
+        <h5><b>Miniature brand: Corgi</b></h5> 
+        <p style="font-style: italic;">Ford Sierra Pace Car</p>
+        <p style="font-style: italic;">€ 5,95</p>
+        <img src="FordSierra.jpg" alt="_blank" width="300" height="200">
+  
+        <h5><b>Miniature brand: Vitesse</b></h5>
+        <p style="font-style: italic;">Renault Safrane Baccara V6 1993</p>
+        <p style="font-style: italic;">€ 29,50</p>
+        <img src="AstonMartin.jpg" alt="_blank" width="300" height="200">
+      
+        <h5><b>Miniature brand: Schabak</b></h5>
+        <p style="font-style: italic;">Ford Escort Red</p>
+        <p style="font-style: italic;">€ 12,-</p>
+        <img src="FordEscort.jpg" alt="_blank" width="300" height="200">
+      
+        <h5><b>Miniature brand: Schuco</b></h5>
+        <p style="font-style: italic;">Ford Scorpio 5 drs</p>
+        <p style="font-style: italic;">€ 12,-</p>
+                <img src="FordScorpio.jpg" alt="_blank" width="350" height="200">
+
+      </center>
+
+    </div>
+
+<center>
+
+  <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+    <h5><b>Miniature brand: Panini</b></h5>
+    <b><p style="color: red; font-style: italic;">NEW!</b></p> 
+    <p style="font-style: italic;">McLaren MP 4/4 1988 Ayrton SENNA</p>
+    <p style="font-style: italic;">€ 14,90</p>
+    <img src="AF1.jpg" alt="_blank" width="300" height="200"> 
+  
+    <h5><b>Miniature brand: Corgi</b></h5> 
+    <p style="font-style: italic;">Ford Transit</p>
+    <p style="font-style: italic;">€ 5,95</p>
+    <img src="FordTransit.jpg" alt="_blank" width="300" height="200">
+  
+    <h5><b>Miniature brand: Vitesse</b></h5>
+    <p style="font-style: italic;">Aston Martin DB5 Millenium</p>
+    <p style="font-style: italic;">€ 19,90</p>
+    <img src="AstonMartin2.jpg" alt="_blank" width="300" height="200">
+  
+    <h5><b>Miniature brand: Schuco</b></h5>
+    <b><p style="color: red; font-style: italic;">NEW!</b></p> 
+    <p style="font-style: italic;">Ford Capri zilver</p>
+    <p style="font-style: italic;">€ 4,90</p>
+    <img src="FordCapri.jpg" alt="_blank" width="300" height="200">
+  
+    <h5><b>Miniature brand: Corgi</b></h5>
+    <b><p style="color: red; font-style: italic;">NEW!</b></p> 
+    <p style="font-style: italic;">Aston Martin Volante</p>
+    <p style="font-style: italic;">€ 14,90</p>
+    <img src="Volante.jpg" alt="_blank" width="300" height="200">
+
+  </center>
+</div>
+
+
+<!-- Tour container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tour</span></h5>
+    <p style="font-style: italic;text-align: center;">To Whom It May Concern:
+      We are all aware of the ongoing outbreak of the Coronavirus 2019 (COVID-19), which was
+      recently declared a pandemic by the World Health Organization and the President and Governor
+      have declared a national and state emergency, respectively. Although the situation continues to
+      evolve rapidly, (Insert Company Name) remains fully committed to pursuing the completion of
+      our work in a safe, diligent and reasonable manner under the current circumstances. We must
+      recognize, however, there is a strong likelihood that we will encounter certain delays as a result of
+      this pandemic. </p>
+      
+      <center>
+      <img src="coronamask.png" alt="_blank" width="100">
+    </center>
+</div>
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <p>Voorstraat 80<br>4147 CD Asperen (NL)</p>
+    <img src="building.jpg" class="w3-image" style="width:100%">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.9077203388135!2d5.115518790581478!3d51.87787365782821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c68a30b0d6f5fb%3A0x8bfcac7157808724!2sVoorstraat%2080%2C%204147%20CD%20Asperen%2C%20Nederland!5e0!3m2!1snl!2sbe!4v1607597498615!5m2!1snl!2sbe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="w3-center w3-padding-48"></iframe>
+    <p><span class="w3-tag">FYI!</span> You can also a look at our sponsors and tour</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-12-10T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Extra info" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Sponser container -->
+
+<div>
+  
+  <center>
+    
+    <div class="Sponsors" id="about">
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SPONSORS</span></h5>
+      <div class="w3-content" style="max-width:700px; display:flex;">
+        <img src="inventummm.png" width="250" height="120" > 
+        <img src="hella.svg" width="220" height="100"/> 
+        <img src="DAFNIS.png" alt="_blank" width="230" height="100" >  
+    </div>
+    </div>
+
+  </center>
+<!-- End page content -->
+
+</div>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
